@@ -11,7 +11,7 @@
 
 ## Description
 
-This repository contains files for a simple phone book application with CRUD (Create, Read, Update and Delete) Operations. the application provides a form where you can enter in your first name, last name and phone number.
+This repository contains files for a simple phone book application with CRUD (Create, Read, Update and Delete) Operations. the application provides a form where you can enter in your first name, last name and phone number. I call it the DJ phone app but the DJ actually stands for Django.
 
 ## Setup
 
