@@ -22,7 +22,7 @@ git clone https://github.com/Abuka-Victor/Phone-Book.git
 ```
 2. Open up the cloned directory in your terminal or command prompt
 3. If you are a Mac/Ubuntu/Linux User:
-    - Run script by entering the following command in your terminal:
+    - Run the script by entering the following command in your terminal:
  
      ```sh
      ./setup.sh
@@ -69,7 +69,7 @@ You should get the following results
 
 ![Details Page](./images/dp.png)
 
-> If you have errors with setup, feel free to send a mail: abukavictoro@gmail.com
+> If you have any errors or doubts with setup, feel free to send a mail: abukavictoro@gmail.com
 
 ## Built With
 
