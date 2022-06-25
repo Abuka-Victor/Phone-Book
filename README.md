@@ -76,6 +76,9 @@ You should get the following results
 - Django
 - Tailwind CSS
 - Semantic HTML
+- Bash
+- Custom CSS
+- JavaScript
 
 ## Author
 
