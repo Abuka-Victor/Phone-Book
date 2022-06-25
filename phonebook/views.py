@@ -23,6 +23,7 @@ def contact_delete(request, id):
     contact.delete()
     return redirect("/")
 
+
 def contact_create(request):
     if request.method == "POST":
         first_name = request.POST['first_name'] if request.POST['first_name'] else None
@@ -39,3 +40,25 @@ def contact_create(request):
         return redirect("/")
     elif request.method == "GET":
         return render(request, "phonebook/contact_create.html")
+
+
+def contact_update(request, id):
+    contact = Contact.objects.get(id=id)
+    if request.method == "POST":
+        first_name = request.POST['first_name'] if request.POST['first_name'] else None
+        last_name = request.POST['last_name'] if request.POST['last_name'] else None
+        phone_number = request.POST['phone_number'] if request.POST['phone_number'] else None
+        if None not in [first_name, last_name, phone_number]:
+            contact.first_name = first_name
+            contact.last_name = last_name
+            contact.phone_number = phone_number
+            contact.save()
+        else:
+            messages.error(request, "All Fields Should Be Filled")
+            return redirect("/create")
+        return redirect("/")
+    elif request.method == "GET":
+        context = {
+            "contact": contact
+        }
+        return render(request, "phonebook/contact_edit.html", context)

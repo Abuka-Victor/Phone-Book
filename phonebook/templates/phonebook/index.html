@@ -55,13 +55,19 @@
                         ></th>
                     </tr>
                 </thead>
-                <tbody>
+                <tbody id="tbody">
                     {% for contact in contacts %}
                     <tr>
-                        <td class="border-t-2 border-gray-200 px-4 py-3">
+                        <td
+                            id="first_name"
+                            class="border-t-2 border-gray-200 px-4 py-3"
+                        >
                             {{ contact.first_name }}
                         </td>
-                        <td class="border-t-2 border-gray-200 px-4 py-3">
+                        <td
+                            id="last_name"
+                            class="border-t-2 border-gray-200 px-4 py-3"
+                        >
                             {{ contact.last_name }}
                         </td>
                         <td class="border-t-2 border-gray-200 px-4 py-3">
@@ -78,7 +84,7 @@
                         </td>
                         <td class="border-t-2 border-gray-200 w-10 text-center">
                             <a
-                                href="#"
+                                href="{% url 'pb:edit' contact.id %}"
                                 class="flex justify-center items-center w-24 items-center bg-green-600 border-0 py-2 px-3 hover:bg-green-800 focus:outline-none rounded text-white mt-4 md:mt-0"
                                 >Edit</a
                             >
