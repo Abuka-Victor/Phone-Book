@@ -1,5 +1,14 @@
 # Phone Book App
 
+## Table of contents
+
+- [Description](#description)
+- [Setup](#setup)
+- [Screenshots](#screenshot-views)
+- [Built with](#built-with)
+- [Author](#author)
+
+
 ## Description
 
 This repository contains files for a simple phone book application with CRUD (Create, Read, Update and Delete) Operations. the application provides a form where you can enter in your first name, last name and phone number.
@@ -35,13 +44,32 @@ git clone https://github.com/Abuka-Victor/Phone-Book.git
 You should get the following results
 ![Successful Console Snapshot](./images/scs.png)
 
+> When you have successfully setup the first time, consequently you may use just `python manage.py runserver` to start the server
 
-## Views
+
+## Screenshot Views
+
+### Home Page (Without Contacts)
+
 ![Index Page](./images/ip1.png)
+
+### Home Page (With Contacts)
+
 ![Index Page](./images/ip2.png)
+
+### Edit Contact Page
+
 ![Edit Page](./images/ep.png)
+
+### Create Contact Page
+
 ![Create Page](./images/ap.png)
+
+### Details Contact Page
+
 ![Details Page](./images/dp.png)
+
+> If you have errors with setup, feel free to send a mail: abukavictoro@gmail.com
 
 ## Built With
 
