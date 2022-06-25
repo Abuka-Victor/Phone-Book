@@ -39,7 +39,8 @@ You should get the following results
 ## Views
 ![Index Page](./images/ip1.png)
 ![Index Page](./images/ip2.png)
-![Edit Page and Create Page](./images/ep.png)
+![Edit Page](./images/ep.png)
+![Create Page](./images/ap.png)
 ![Details Page](./images/dp.png)
 
 ## Built With
