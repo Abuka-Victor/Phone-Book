@@ -1,8 +1,17 @@
 # Phone Book App
 
+## Table of contents
+
+- [Description](#description)
+- [Setup](#setup)
+- [Screenshots](#screenshot-views)
+- [Built with](#built-with)
+- [Author](#author)
+
+
 ## Description
 
-This repository contains files for a simple phone book application with CRUD (Create, Read, Update and Delete) Operations. the application provides a form where you can enter in your first name, last name and phone number.
+This repository contains files for a simple phone book application with CRUD (Create, Read, Update and Delete) Operations. the application provides a form where you can enter in your first name, last name and phone number. I call it the DJ phone app but the DJ actually stands for Django.
 
 ## Setup
 
@@ -13,7 +22,7 @@ git clone https://github.com/Abuka-Victor/Phone-Book.git
 ```
 2. Open up the cloned directory in your terminal or command prompt
 3. If you are a Mac/Ubuntu/Linux User:
-    - Run script by entering the following command in your terminal:
+    - Run the script by entering the following command in your terminal:
  
      ```sh
      ./setup.sh
@@ -35,19 +44,41 @@ git clone https://github.com/Abuka-Victor/Phone-Book.git
 You should get the following results
 ![Successful Console Snapshot](./images/scs.png)
 
+> When you have successfully setup the first time, consequently you may use just `python manage.py runserver` to start the server
 
-## Views
+
+## Screenshot Views
+
+### Home Page (Without Contacts)
+
 ![Index Page](./images/ip1.png)
+
+### Home Page (With Contacts)
+
 ![Index Page](./images/ip2.png)
+
+### Edit Contact Page
+
 ![Edit Page](./images/ep.png)
+
+### Create Contact Page
+
 ![Create Page](./images/ap.png)
+
+### Details Contact Page
+
 ![Details Page](./images/dp.png)
+
+> If you have any errors or doubts with setup, feel free to send a mail: abukavictoro@gmail.com
 
 ## Built With
 
 - Django
 - Tailwind CSS
 - Semantic HTML
+- Bash
+- Custom CSS
+- JavaScript
 
 ## Author
 
